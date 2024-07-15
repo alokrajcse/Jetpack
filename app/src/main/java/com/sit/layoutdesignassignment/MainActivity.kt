@@ -59,11 +59,9 @@ class MainActivity : ComponentActivity() {
                 NavHost(navController = navController, startDestination = "myDesign") {
                     composable("myDesign") { myDesign(navController) }
                     composable("Signupscreen") { Signupscreen(navController ) }
-                    // Add more destinations similarly.
                 }
 
-                //myDesign()
-                //Signupscreen(navController)
+                
 
 
             }
